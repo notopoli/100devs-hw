@@ -1,0 +1,64 @@
+*{
+    text-align:center;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 10px 20px;
+}
+
+header nav button{
+    float: right;
+}
+
+header li {
+    padding: 0 5px;
+}
+
+header, main section:first-child{
+    background: darkgray;
+}
+
+main article + section{
+    background: lightgrey;
+}
+
+main > section{
+    padding: 60px;
+}
+
+main>article{
+    padding: 120px;
+}
+footer{
+    background: grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+}
+
+main section article{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+footer nav{
+    float: left;
+}
+
+footer section:first-child{
+    float: right;
+}
+
+.clear::after {
+    content: ".";
+    visibility: hidden;
+    clear: both;
+}

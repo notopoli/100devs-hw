@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    height:100px;
+    border:2px solid plum;
+    clear: both;
+}
+
+div section{
+    height: 200px;
+    border: 2px solid plum;
+    width: 33.3333%;
+    float: left;
+}
+
+@media (min-width: 800px){
+    div section{
+        height: 300px;
+    }
+    header{
+        background: lightblue
+    }
+    footer{
+        background:rgb(243, 202, 166)
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+    div section{
+        width: 100%;
+    }
+    header{
+        background:rgb(197, 144, 97)
+    }
+    footer {
+        background: rgb(96, 122, 94)
+    }
+}
+
+ @media (max-width: 500px){
+    header{
+        background: rgb(219, 174, 134);
+    }
+    footer{
+        background: rgb(204, 148, 226)
+    }
+}

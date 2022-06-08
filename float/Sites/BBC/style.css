@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 65px;
+    background: black;
+}
+
+nav {
+    width: 100%;
+}
+
+nav > a, nav > a img, nav ul, nav form{
+    float: left;
+    color: white;
+    display: block;
+}
+
+nav a img{
+    max-height: 65px;
+    width: auto;
+    padding: 5px 10px;
+}
+
+nav a + a img{
+    padding: 5px 0;
+    width: 65px;
+    height: auto;
+    
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 60%;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 10%;
+}
+
+.signin, nav ul{
+    padding: 20px 0;
+}
+
+form{
+    padding: 20px 10px;
+}
+
+.signin {
+    margin: 0 50px 0 0;
+}
+
+nav > ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown{
+    width:20%;
+}
+
+nav form{
+    width: 20%;
+    float: right;
+}
+
+nav form input{
+    width: 100%;
+} /* width of search takes 100% of form width*/
+
+main section h3{
+    text-align: right;
+
+}
+
+main+section h3{
+    clear: both;
+}
+
+main > section {
+    width: 50%;
+    float: left;
+}
+
+main a{
+    color: white;
+    text-decoration: none;
+}
+
+main section section {
+    position: relative;
+    padding: 20px;
+    height: 500px;
+    background-image: url("http://placekitten.com/800/500");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+main > section + section section{
+    height: 250px;
+    width: 50%; /*of just 50% of the section*/
+    float: left;
+    background-image: url("http://placekitten.com/400/250");
+}
+
+main section section div{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+}
+
+
+body > section section{
+    float: left;
+    height: 250px;
+    max-width: 33.3333%;
+    padding: 10px;
+}
+
+body > section section img{
+    max-width: 100%;
+    padding:0;
+    margin:0;
+}
+
+body > section > section > a{
+    color: black;
+    text-decoration: none;
+}
+
+.sub{
+    color: grey;
+    border-left: 2px solid red;
+    padding-left: 5px;
+}

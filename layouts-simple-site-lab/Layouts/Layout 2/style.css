@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height:100px;
+    border:2px solid plum;
+    clear: both;
+}
+
+body>section{
+    height: 200px;
+    border: 2px solid plum;
+    clear:both;
+}
+
+div section{
+    height: 250px;
+    border: 2px solid plum;
+    width: 35%;
+    float:left;
+}
+
+div section + section{
+    width:65%;
+}
